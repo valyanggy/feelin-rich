@@ -1,83 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>feelin rich</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>feelin rich</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="normalize.css">
 
-    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
-</head>
+		<!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+	</head>
 
-<body>
-    <div class="cursor">
+	<body>
+		<div class="cursor">
 
-    </div>
+		</div>
 
-    <div id="reset">
-        press "r" to reset
-    </div>
+		<div id="reset">
+			press "r" to reset
+		</div>
 
-    <div id="lickin">
-        <div id="tongue">
-            <img src="img/tongue.png" width="200px" alt="tongue">
-        </div>
-        my finger kinda dry
+		<div id="lickin">
+			<div id="tongue">
+				<img src="img/tongue.png" width="200px" alt="tongue">
+			</div>
+			my finger kinda dry
 
-    </div>
+		</div>
 
+		<div id="count">
+			$<span id="displayCount">0</span>
+		</div>
 
-    <div id="count">
-        $<span id="displayCount">0</span>00
-    </div>
+		<button id="countButton">
+			<div id="billanim">
+				<img src="img/cash.png" width="220px" alt="stack">
+			</div>
+		</button>
 
-    <div id="countButton">
-        <div id="billanim">
-            <img src="img/cash.png" width="220px" alt="stack">
-        </div>
+		<div id="moneystack">
+			<div id="stack">
+				<img src="img/cashstack.png" width="500px" alt="stack">
+			</div>
+		</div>
 
-    </div>
+		<!-- <div class="bodymovinanim"></div> -->
 
-    <div id="moneystack">
-        <div id="stack">
-            <img src="img/cashstack.png" width="500px" alt="stack">
-        </div>
-    </div>
+		<!-- <div class="animContainer"> -->
+		<!-- <div id="tongue" onmouseover="noise(this)"> -->
 
-    <!-- <div class="bodymovinanim"></div> -->
+		<!-- </div> -->
 
-    <!-- <div class="animContainer"> -->
-        <!-- <div id="tongue" onmouseover="noise(this)"> -->
-  
+		<audio id="heartbeat" src="lickin.mp3" preload="auto">
+			Your browser does not support the <code>audio</code> element.
+		</audio>
 
-    <!-- </div> -->
+		<script src="lottie.js"></script>
+		<script src="js/script2.js"></script>
 
-
-
-
-    <audio id="heartbeat" src="lickin.mp3" preload="auto">
-        Your browser does not support the <code>audio</code> element.
-    </audio>
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="lottie.js"></script>
-    <script src="js/script.js" defer></script>
-
-
-</body>
+	</body>
 
 </html>
